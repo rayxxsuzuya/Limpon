@@ -13,6 +13,11 @@ h1 {
 	font-size: 80px;
 	font-weight: 600;
 	color: #192b59;
+	line-height: 90px;
+}
+
+.logo-url {
+	vertical-align: middle;
 }
 
 .nav {
@@ -21,12 +26,110 @@ h1 {
 	color: #6e7ea9;
 	text-transform: uppercase;
 	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 40px;
+	display: inline-block;
+}
+
+.nav li {
+	display: inline-block;
+	margin-left: 40px;
+	padding: 0;
+}
+
+.btn-group a + a {
+	margin-left: 20px;
+}
+
+.btn-primary {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 21.5px 41px;
+	letter-spacing: 2.4px;
+	background-color: #1085e4;
+	border-radius: 30px;
+	line-height: 90px;
+}
+
+.btn-sub {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	border-radius: 25px;
+	background-color: #1085e4;	
+	padding: 11px 44.7px;
+	text-decoration: none;
+	border: 0;
+}
+
+.btn-submit {
+	color: #ffffff;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	font-weight: 700;
+	border-radius: 30px;
+	background-color: #1085e4;
+	border: 0;
+	padding: 23.5px 63px;
 }
 
 .btn-free {
-	color: #fff;
 	font-weight: 400;
-	background-color: #192b59;
+	padding: 20px 50px;
+	letter-spacing: 2.4px;
+	line-height: 90px;
+	padding: 19.5px 50.4px;
+	border: 2px solid #1085e4;
+}
+
+.btn-free:hover {
+	transition: all 0.5s ease;
+	color: #1085e4;
+	background-color: #fff;
+}
+
+.btn-secondary {
+	color: #7e8bae;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 21.5px 40.5px;
+	letter-spacing: 2.4px;
+	background-color: #cbdbe8;
+	border-radius: 30px;
+}
+
+.btn-plan {
+	color: #8085b1;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	border-radius: 30px;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	background-color: #f5faff;
+	padding: 19.5px 61.4px;
+}
+
+.active .btn-plan {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	border-radius: 30px;
+	background-color: #1a88e1;
+	border: 0;
+	padding: 21.5px 63.4px;
 }
 
 .grid h2 {
@@ -54,6 +157,24 @@ h1 {
 	color: #1085e4;
 }
 
-.nav {
-	color: red;
+.btn-learn-more {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	border-radius: 30px;
+	background-color: #1085e4;
+	padding: 21.5px 64px;
+}
+
+.btn-gsn {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	border-radius: 30px;
+	background-color: #1085e4;
+	padding: 21.5px 41px;
 }
