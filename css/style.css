@@ -673,7 +673,8 @@ ul {
     letter-spacing: 2.4px;
     border-radius: 30px;
     background-color: #1085e4;
-    padding: 21.5px 41px;
+    padding: 17px 41px;
+    display: inline-block;
 }
 
 .list-stat {
@@ -780,4 +781,103 @@ ul {
     width: 540px;
     border-radius: 35px;
     border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.page-app {
+    padding-top: 122px;
+    position: relative;
+    padding-bottom: 57px;
+}
+
+.page-app-h2 {
+    max-width: 451px;
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    margin-bottom: 41px;
+    margin-top: 0;
+}
+
+.page-app .wrap p {
+    max-width: 599px;
+    color: #7581a1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 37px;
+}
+
+.page-app .wrap p+p {
+    color: #c4d2dd;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    margin-bottom: 30px;
+}
+
+.page-app .wrap ul {
+    padding-left: 0;
+}
+
+.page-app .wrap ul li {
+    display: inline-block;
+}
+
+.page-app .wrap ul>li {
+    margin-right: 30px;
+}
+
+.page-app-img {
+    position: absolute;
+    top: 52px;
+    right: 238px;
+}
+
+.page-analytics {
+    background-image: url(../img/block-7-bg\,png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 119px;
+    padding-bottom: 121px;
+}
+
+.page-analytics .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-analytics .wrap>div>img {
+    display: block;
+    width: 115px;
+    height: 97px;
+    margin-left: -28px;
+    margin-bottom: 0;
+}
+
+.page-analytics .wrap>div {
+    flex-basis: 53%;
+}
+
+.page-analytics .wrap>img {
+    display: block;
+    width: 473px;
+    height: 377px;
+}
+
+.page-analytics-h2 {
+    max-width: 503px;
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    margin-top: 13px;
+}
+
+.page-analytics .wrap>div>p {
+    margin-bottom: 38px;
 }
