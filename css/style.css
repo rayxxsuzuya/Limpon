@@ -75,6 +75,29 @@ ul {
     background-color: #edf6ff;
     padding-top: 120px;
     padding-bottom: 120px;
+    position: relative;
+}
+
+.object-circle {
+    display: block;
+    position: absolute;
+    left: -65px;
+    bottom: -311px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 765px;
+    background-image: url(../img/circle.svg);
+}
+
+.object-square {
+    display: block;
+    position: absolute;
+    right: -138px;
+    top: -311px;
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 772px;
+    background-image: url(../img/square.svg);
 }
 
 .page-stat .title-h2 {
@@ -139,7 +162,8 @@ ul {
     box-shadow: 0 8px 30px rgba(156, 156, 156, 0.1);
     text-align: center;
     position: relative;
-    padding: 192px 0 40px 0;
+    padding: 192px 31px 40px 31px;
+    box-sizing: border-box;
 }
 
 .box-team-item .position {
@@ -168,19 +192,92 @@ ul {
     margin: 0 auto;
 }
 
-.btn-more {
-    background-image: url(../img/3-layers.png);
-    background-repeat: no-repeat;
+.box-team-item .btn-team {
+    background-color: #f3f3f3;
+    border-radius: 100%;
     display: block;
     width: 50px;
     height: 50px;
-    background-color: rgba(0,0,0,0);
-    border: none;
     margin: 0 auto;
+    transition: 0.3s;
+    border: none;
+    padding: 0;
+}
+
+.box-team-item .btn-team:hover {
+    background-color: #1a88e1;
+}
+
+.btn-more span{
+    background-image: url(../img/btn-team.png);
+    background-repeat: no-repeat;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-more span{
+    background-image: url(../img/btn-team.png);
+    background-repeat: no-repeat;
+    background-position: -5px 0;
+    border: none;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.box-team-item .btn-more:hover span {
+    background-position: -5px -28px;
 }
 
 .btn-more:focus {
     outline: none;
+}
+
+.social-team {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin: 0;
+}
+
+.btn-fb i {
+    display: block;
+    padding-top: 20px;
+    color: #9ea6b1;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-fb i:hover, .btn-tw i:hover, .btn-be i:hover, .btn-web i:hover {
+    color: #fff;
+}
+
+.btn-tw i {
+    display: block;
+    padding-top: 20px;
+    color: #9ea6b1;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-be i {
+    display: block;
+    padding-top: 18px;
+    color: #9ea6b1;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.btn-web i {
+    display: block;
+    padding-top: 20px;
+    color: #9ea6b1;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .page-screen {
