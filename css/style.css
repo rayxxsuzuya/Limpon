@@ -1181,3 +1181,37 @@ ul {
 .box-info p {
     margin: 0 0 0 0;
 }
+
+.footer {
+    background-color: #192b59;
+    padding: 5px 0;
+}
+
+.footer .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .wrap p {
+    color: #b6bae0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer .wrap p>a {
+    color: #1085e4;
+    text-transform: uppercase;
+}
+
+.social li{
+    display: inline-block;
+    margin-left: 20.5px;
+}
+
+
+.social li a i {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
