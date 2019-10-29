@@ -515,7 +515,7 @@ ul {
     border-radius: 30px;
     background-color: #1085e4;
     border: 0;
-    padding: 23.5px 63px;
+    padding: 23.5px 53px;
 }
 
 .btn-free {
@@ -1214,4 +1214,92 @@ ul {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
+}
+
+.page-form {
+    background-image: url(../img/block-12-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 114px;
+    padding-bottom: 120px;
+}
+
+.page-form .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-form .wrap h2 {
+    max-width: 481px;
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    margin: 0;
+    margin-bottom: 47px;
+}
+
+.page-form .wrap .form input {
+    display: block;
+    width: 514px;
+    height: 70px;
+    border-radius: 35px;
+    border: 2px solid rgba(72, 72, 72, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 21px;
+    padding-left: 41px;
+    padding-right: 75px;
+    color: #8995b3;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.page-form .wrap .form input[type="text"] {
+    background-image: url(../img/user-icon.png);
+    background-repeat: no-repeat;
+    background-position: 93%;
+    background-position-y: 51%;
+}
+
+.page-form .wrap .form input[type="email"] {
+    background-image: url(../img/mail-icon.png);
+    background-repeat: no-repeat;
+    background-position: 93%;
+    background-position-y: 51%;
+}
+
+.page-form .wrap .form textarea {
+    width: 514px;
+    height: 160px;
+    border-radius: 35px;
+    border: 2px solid rgba(72, 72, 72, 0.1);
+    background-color: #ffffff;
+    color: #8995b3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    resize: none;
+    padding-left: 41px;
+    box-sizing: border-box;
+    display: block;
+    background-image: url(../img/pen-icon.png);
+    background-repeat: no-repeat;
+    background-position: 93%;
+    background-position-y: 16%;
+    margin-bottom: 39px;
+    padding-right: 75px;
+    padding-top: 20px;
+}
+
+
+.page-form .wrap img {
+    flex-basis: 39%;
+}
+
+.fa-paper-plane {
+    color: #ffffff;
+    letter-spacing: 2.4px;
 }
